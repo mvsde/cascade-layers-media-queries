@@ -1,0 +1,19 @@
+@layer global {
+  p {
+    color: blue;
+  }
+}
+
+@layer components {
+  p {
+    color: green;
+  }
+}
+
+@layer components {
+  @media (min-width: 40rem) {
+    p {
+      color: red;
+    }
+  }
+}

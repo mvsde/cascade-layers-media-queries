@@ -1,0 +1,13 @@
+@layer global, components;
+
+@layer global {
+  p {
+    color: blue;
+  }
+}
+
+@layer components {
+  p {
+    color: green;
+  }
+}
